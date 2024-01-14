@@ -174,6 +174,7 @@ const toggleLoader = (isLoading) =>{
 
 document.getElementById('btn-see-more').addEventListener('click', function(){
   loadData(true);
+  toggleLoader(true);
 })
 
 
