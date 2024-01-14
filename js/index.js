@@ -84,7 +84,7 @@ const displayModalContent = (data) =>{
   
   const modalCardContent = document.getElementById('modal-card-body');
   modalCardContent.innerHTML = `
-  <div class="row p-5">
+  <div class="row p-2 p-md-5">
                 <!-- start  -->
                 <div class="col-md mb-3 my-sm-0">
                   <div class="card h-100 border-danger bg-danger-subtle">
